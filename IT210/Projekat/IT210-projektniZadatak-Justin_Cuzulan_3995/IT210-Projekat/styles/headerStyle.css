@@ -1,0 +1,48 @@
+#zaglavlje {
+    background-color: rgb(42, 15, 8);
+    border: 1px solid rgb(218, 216, 216);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 70px;
+    width: 96%;
+    position: fixed;
+    top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(212, 113, 54);
+}
+
+#logo {
+    margin-left: 20px;
+    position: fixed;
+    left: 19px;
+    border-right: 1px solid rgb(218, 216, 216);
+    width: 200px;
+    height: 60px;
+    top: 10px;
+}
+
+#goreDesno {
+    position: fixed;
+    right: 130px;
+    top: 20px;
+    display: inline-block;
+}
+
+#navigacija {
+    position: fixed;
+    left: 300px;
+    top: 35px;
+    display: inline-block;
+    border-right: 1px solid rgb(218, 216, 216);
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: rgb(212, 113, 54);
+}
+
+#navigacija a {
+    padding: 20px;
+}

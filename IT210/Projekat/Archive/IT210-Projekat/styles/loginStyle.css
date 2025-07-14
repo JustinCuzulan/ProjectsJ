@@ -1,0 +1,13 @@
+.formaLogin {
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: rgb(212, 113, 54);
+    text-align: center;
+    padding: 100px;
+    width: fit-content;
+    color: rgb(255, 240, 210)
+}
+
+body {
+    background-color: rgb(255, 240, 210);
+}

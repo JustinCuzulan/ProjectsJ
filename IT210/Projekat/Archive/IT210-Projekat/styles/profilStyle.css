@@ -1,0 +1,87 @@
+body {
+    color: rgb(255, 250, 199);
+    background-color: rgb(255, 240, 210);
+}
+
+#zaglavlje {
+    background-color: rgb(42, 15, 8);
+    border: 1px solid rgb(218, 216, 216);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 70px;
+    width: 96%;
+    position: fixed;
+    top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+#logo {
+    margin-left: 20px;
+    position: fixed;
+    left: 19px;
+    border-right: 1px solid rgb(218, 216, 216);
+    width: 200px;
+    height: 150px;
+    top: 10px;
+}
+
+#lijevi {
+    background-color: rgb(42, 15, 8);
+    color: rgb(212, 113, 54);
+    position: fixed;
+    top: 70px;
+    border: 1px solid rgb(218, 216, 216);
+    border-bottom-left-radius: 30px;
+    height: fit-content;
+    width: 210px;
+    display: inline-block;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+#meni {
+    border-bottom: 1px solid rgb(218, 216, 216);
+    height: fit-content;
+    width: 200px;
+    z-index: 1;
+}
+
+#padajuciMeniSadrzaj {
+    display: none;
+    margin-left: 10px;
+}
+
+#korisnik {
+    margin-left: 10px;
+    bottom: auto;
+    width: 200px;
+    height: 100px;
+}
+
+#status {
+    position: relative;
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 90%;
+    left: 5px;
+}
+
+#profil {
+    text-align: center;
+    background-color: rgb(212, 113, 54);
+    position: fixed;
+    width: 800px;
+    height: 100%;
+    top: 90px;
+    left: 270px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+#profilZaglavlje {
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: 100%;
+}

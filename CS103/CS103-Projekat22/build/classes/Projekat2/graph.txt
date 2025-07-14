@@ -1,0 +1,7 @@
+6
+Trebinje 10 500 Bileca 30 Gacko 110 Stolac 100
+Bileca 200 600 Trebinje 30 Gacko 40 Foca 80
+Foca 400 670 Bileca 80 Gacko 60 Mostar 150
+Gacko 300 500 Trebinje 110 Bileca 40 Foca 60 Mostar 100
+Stolac 110 400 Trebinje 100 Mostar 90 
+Mostar 400 280 Stolac 90 Gacko 100 Foca 150

@@ -1,0 +1,143 @@
+body {
+    color: rgb(255, 250, 199);
+    background-color: rgb(255, 240, 210);
+    color: rgb(212, 113, 54);
+    height: fit-content;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#zaglavlje {
+    background-color: rgb(42, 15, 8);
+    border: 1px solid rgb(218, 216, 216);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 70px;
+    width: 96%;
+    position: fixed;
+    top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+#logo {
+    margin-left: 20px;
+    position: fixed;
+    left: 19px;
+    border-right: 1px solid rgb(218, 216, 216);
+    width: 200px;
+    height: 150px;
+    top: 10px;
+}
+
+#pretraziKorisnika {
+    position: fixed;
+    right: 130px;
+    top: 20px;
+    display: inline-block;
+    z-index: 1;
+}
+
+#lijevi {
+    background-color: rgb(42, 15, 8);
+    color: rgb(212, 113, 54);
+    position: fixed;
+    top: 70px;
+    border: 1px solid rgb(218, 216, 216);
+    border-bottom-left-radius: 30px;
+    height: fit-content;
+    width: 210px;
+    display: inline-block;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+#meni {
+    border-bottom: 1px solid rgb(218, 216, 216);
+    height: fit-content;
+    width: 200px;
+    z-index: 1;
+}
+
+#padajuciMeniSadrzaj {
+    display: none;
+    margin-left: 10px;
+}
+
+#korisnik {
+    margin-left: 10px;
+    bottom: auto;
+    width: 200px;
+    height: 100px;
+}
+
+#tijelo {
+    position: relative;
+    width: 800px;
+    top: 90px;
+    left: 270px;
+    height: max-content;
+    /* border: 1px solid black; */
+}
+
+#status {
+    position: relative;
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 90%;
+    left: 5px;
+}
+
+
+/* #korisnickoIme {
+    /* border: 1px solid black; 
+}*/
+
+#sadrzaj {
+    background-color: rgb(212, 113, 54);
+    position: relative;
+    top: 20px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 98%;
+    margin-left: 5px;
+    z-index: 0;
+}
+
+#navigacija {
+    position: fixed;
+    left: 300px;
+    top: 35px;
+    display: inline-block;
+    border-right: 1px solid rgb(218, 216, 216);
+}
+
+#navigacija a {
+    padding: 20px;
+    color: rgb(212, 113, 54);
+}
+
+#animacija {
+    height: 200px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+#profilSlika {
+    margin-top: 10px;
+    margin-bottom: -15px;
+    height: 25px;
+    width: 30px;
+}
+
+#message {
+    position: fixed;
+    right: 400px;
+    top: 35px;
+    border-right: 1px solid rgb(255, 240, 210);
+    width: 150px;
+}
+
+#message a {
+    text-decoration: none;
+}
